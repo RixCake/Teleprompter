@@ -1,0 +1,17 @@
+# AV Teleprompter — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Audio — voice-activated scrolling
+sounddevice>=0.4.6
+numpy>=1.24.0
+
+# macOS native APIs — screen-share invisibility, floating window level
+# (Apple Silicon + Intel, macOS 12+)
+pyobjc-core>=10.0
+pyobjc-framework-Cocoa>=10.0
+pyobjc-framework-Quartz>=10.0
+pyobjc-framework-AppKit>=10.0
+
+# Optional — MIDI control (foot pedal, MIDI controller)
+# Uncomment when you're ready to add MIDI support:
+# python-rtmidi>=1.5.0
